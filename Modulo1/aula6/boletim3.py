@@ -1,6 +1,7 @@
 
+resultados = []
 
-for i in range(4):
+for i in range(5):
     nome = input("Qual o nome do aluno ? ")
 
 
@@ -8,12 +9,15 @@ for i in range(4):
     nota2 = float(input("Agora insira sua segunda nota "))
     media = (nota1 + nota2)/2
 
+
+
+
     if media > 7:
-        print(f"Aprovado com média: {media}")
+        print(f"Parabens {nome}, você foi aprovado com média: {media}")
     elif media >= 5 and media <= 7:
-        print(f"Recuperção com média: {media}")
+        print(f"{nome}, você está em recuperação com média: {media}")
     elif media < 5:
-        print(f"Reprovado com média: {media}")
+        print(f"{nome}, você foi reprovado com média: {media}")
     else:
         print("Opção inválida")
 
