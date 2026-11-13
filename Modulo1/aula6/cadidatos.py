@@ -2,6 +2,8 @@ candidatos_validos = []
 
 for i in range(5):
     nome = input("Qual o nome do candidato ? ")
+
+    
     idade = int(input(f"Olá {nome}. Insira sua idade "))
     mail = input("Insira seu e-mail ")
     fone = input("Insira seu telefone ")
