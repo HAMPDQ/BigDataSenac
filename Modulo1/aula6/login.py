@@ -14,6 +14,7 @@ while tentativa > 0:
         print("nome de usuário e senha invalidos ")
         tentativa = tentativa - 1
         print(f"Suas tentativas restantes são {tentativa} ")
+        print(f"Suas tentativas restantes são {tentativa} ")
     elif entrada_user != login_user:
         print("login invalido ")
         tentativa = tentativa - 1
@@ -21,7 +22,7 @@ while tentativa > 0:
     elif entrada_senha != login_senha:
         print("Senha invalida ")
         tentativa = tentativa - 1
-        
+        print(f"Suas tentativas restantes são {tentativa} ")
 
 
 print("Muitas tentativas de login. Tente novamente em 30 segundos. ")
