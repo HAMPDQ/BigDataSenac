@@ -7,6 +7,7 @@ for i in range(5):
 
     nota1 = float(input(f"Olá {nome}. Insira sua primeira nota "))
     nota2 = float(input("Agora insira sua segunda nota "))
+    
     media = (nota1 + nota2)/2
 
     resultados.append((nome, media))
