@@ -1,6 +1,6 @@
 candidatos_validos = []
 
-for i in range(2):
+for i in range(5):
     nome = input("Qual o nome do candidato ? ")
 
     
